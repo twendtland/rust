@@ -1,0 +1,9 @@
+[package]
+name = "blackbyrd"
+version = "0.0.1"
+authors = ["Thomas Wendtland <twendtland@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nickel = "*"
+ws = "*"

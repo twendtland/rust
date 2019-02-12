@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>File upload</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="filehandling.js">
+    </script>
+    <script>
+        const SessionKey = {{session_key}};
+    </script>
+</head>
+<body onload="Uploader.init();">
+    <div id="content">
+        <header id="title">Drag and drop a file to upload</header>
+        <div id="dropzone">
+            {{files}}
+        </div>
+        <div id="progressbar"></div>
+    </div>
+</body>
+</html>
